@@ -1,0 +1,52 @@
+body,label{
+  font-weight: normal;
+}
+
+ /* Estilos para el contenedor del campo de fecha */
+ .date-field-container {
+  position: relative; /* Establece la posición relativa para poder posicionar el calendario dentro */
+  display: inline-block; /* Para que el contenedor no ocupe todo el ancho disponible */
+}
+
+/* Estilos para el icono de calendario */
+.calendar-icon {
+  position: absolute; /* Posiciona el icono absolutamente dentro del contenedor */
+  top: 50%; /* Lo coloca en el centro verticalmente */
+  right: 5px; /* Lo coloca a 5px del borde derecho del contenedor */
+  transform: translateY(-50%); /* Lo centra verticalmente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
+}
+
+
+
+.example-form {
+    min-width: 180px;
+    max-width: 600px;
+    width: 150%;
+  }
+  
+  .example-full-width {
+    width: 150%;
+  }
+mat-label{
+    color: black;
+}  
+label{
+    font-size: 14px;
+}
+
+.boton {
+    background-color: #FFA500; /* Cambia el color a tu preferencia */
+    color: white; /* Cambia el color del texto si es necesario */
+  }
+
+  input{
+    margin-left: -1.5%;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+ select .select-icon {
+    fill: #FFA500; /* Cambia el color del icono */
+  }
+  

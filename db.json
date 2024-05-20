@@ -1,0 +1,38 @@
+{
+  "productList": [
+    {
+      "titulo": "Ricardoooo",
+      "descripcion": "Daa",
+      "etapa": "sss",
+      "inicio": "0001-11-11",
+      "final": "0001-11-11",
+      "id": 26
+    },
+    {
+      "titulo": "das4444",
+      "descripcion": "ss",
+      "etapa": "ss",
+      "inicio": "34",
+      "final": "34",
+      "id": 28
+    },
+    {
+      "titulo": "carmen",
+      "descripcion": "Carmen",
+      "etapa": "Carmen",
+      "inicio": "0022-12-11",
+      "final": "0011-11-11",
+      "id": 29
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

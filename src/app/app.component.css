@@ -1,0 +1,33 @@
+ /* Estilos personalizados para las pestañas */
+ .nav-link {
+    border: none; /* Elimina el borde predeterminado de los enlaces de las pestañas */
+    border-bottom: 2px solid transparent; /* Agrega una línea inferior transparente a todos los enlaces de las pestañas */
+  }
+  .nav-link.active {
+    background-color: transparent; /* Elimina el color de fondo de la pestaña activa */
+    border-color:#fec702; /* Cambia el color de la línea inferior para indicar la pestaña activa */
+  }
+
+  .nav-link.active::after {
+    background-color: #ffc107; /* Cambia el color de la línea activa a amarillo */
+   ; /* Ajusta la altura para hacer la línea más gruesa */
+  }
+
+  footer {
+    width: 100%;
+    background-color:#eaeaea;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+    height: auto;
+    font-size: 18px;
+  }
+  footer p{
+    color: black;
+  }
+ 
+
+
+
+
+  

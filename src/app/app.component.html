@@ -1,0 +1,95 @@
+<nav class="navbar navbar-default" style="background-color: white">
+  <div class="container-fluid">
+    <div class="navbar-header" style="width: 3%;height:100%;">
+      <a class="navbar-brand" style="background-color: #fec702">
+        <span><img src="assets/img/hamburguesa.svg" style="width: 80%" /></span>
+      </a>
+    </div>
+  
+    <ul class="nav navbar-nav">
+      <!-- Contenedor para la imagen de inicio y la línea horizontal -->
+      <li style="display: flex; align-items: center;">
+        <img src="assets/img/home.svg" style="width: 10%; margin-top: 5px; margin-left: 40px" />
+        <a style="color: #eaeaea;" class="hr" href="#" onmouseover="this.style.cursor='default'">|</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="#">
+          <img style="border-radius: 100%;width: 40%;margin-top: -10px;" class="home" src="assets/img/foto.jpe" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="" style="padding: 20px;">
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a style="color: black;" class="nav-link active" id="datos-tab" data-toggle="tab" href="#datos" role="tab" aria-controls="datos" aria-selected="true">
+        <img style="width: 5%;" src="assets/img/datos-generales.svg">
+        DATOS
+      </a>
+    </li>
+    <li class="nav-item">
+      <a style="color: black;"  class="nav-link" id="plan-tab" data-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">
+        <img style="width: 5%;" src="assets/img/plandetrabajo.svg">
+        PLAN
+      </a>
+    </li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="datos" role="tabpanel" aria-labelledby="datos-tab">
+      <!-- Contenido de la pestaña DATOS -->
+    </div>
+    <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="plan-tab">
+      <!-- Contenido de la pestaña PLAN -->
+    </div>
+  </div>
+</div>
+
+
+<mat-grid-list cols="2" style="margin-top: 2%;">
+  <mat-grid-tile>
+  </mat-grid-tile>
+    <app-form></app-form>
+    <mat-grid-tile>
+      <div class="container">
+        <app-form2></app-form2>
+      </div>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<div class="col-sm-12" style="margin-top: -15%;">
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label style="text-decoration: none;  font-weight: normal" for="id_sistema">Responsables del proyecto</label>
+      <input type="text" class="form-control" id="id_sistema" placeholder="Agregar Responsable del proyecto">
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label for="tipo_proyecto">Objetivos a los que contribuye el proyecto</label>
+      <select class="form-control" >
+        <option value="tipo2">Agregar Administrador</option>
+        <option value="tipo3">Tipo 3</option>
+      </select>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label style="text-decoration: none;  font-weight: normal" for="id_sistema">Involucrados (opcional)</label>
+      <input type="text" class="form-control"  placeholder="Agregar involucrado">
+    </div>
+  </div>
+</div>
+
+
+<app-icon-dialog></app-icon-dialog>
+
+<footer class="d-flex justify-content-center" style="display: flex; justify-content: center; text-align: center;">
+  <p style="font-size: 12px; margin-right: 10px;" class="mr-2">Grupo Salinas</p>
+  <a style="color: #fec702; margin: 0 10px;" class="hr" href="#" onmouseover="this.style.cursor='default'">|</a>
+  <p style="font-size: 12px; margin-left: 10px;" class="ml-2">Actualización Octubre 2021</p>
+</footer>
+

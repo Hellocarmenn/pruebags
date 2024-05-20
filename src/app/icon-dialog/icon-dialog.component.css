@@ -1,0 +1,44 @@
+button{
+     /* Deshabilita el efecto hover */
+  pointer-events:visible;
+  /* Añade otros estilos deseados */
+ 
+    
+}
+
+/* Estilos base para la tabla */
+.mat-table {
+  width: 100%; /* La tabla ocupa todo el ancho disponible */
+  overflow-x: auto; /* Hace que la tabla sea desplazable horizontalmente si el contenido es demasiado ancho */
+  display: block; /* Hace que la tabla sea un bloque para que los elementos floten debajo en dispositivos pequeños */
+}
+
+/* Estilos para las celdas de la tabla */
+.mat-table td, .mat-table th {
+  white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+  padding: 10px; /* Añade un espacio interno a las celdas */
+}
+
+/* Media queries para dispositivos de diferentes tamaños */
+
+/* Estilos para teléfonos móviles */
+@media only screen and (max-width: 600px) {
+  .mat-table {
+    font-size: 14px; /* Reducir el tamaño de fuente para dispositivos pequeños */
+  }
+}
+
+/* Estilos para tabletas, como el iPad */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .mat-table {
+    font-size: 16px; /* Ajustar el tamaño de fuente para tabletas */
+  }
+}
+
+/* Estilos para computadoras de escritorio */
+@media only screen and (min-width: 1025px) {
+  .mat-table {
+    font-size: 18px; /* Ajustar el tamaño de fuente para computadoras de escritorio */
+  }
+}
+

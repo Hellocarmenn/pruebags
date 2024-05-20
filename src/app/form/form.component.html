@@ -1,0 +1,48 @@
+<div class="container col-sm-12">
+  <div class="col-sm-6" style="margin-top: 2%;"> <!-- Utiliza Bootstrap para dividir el espacio en columnas y colocar el formulario a la izquierda -->
+    <form action="" style="width: 100%;">
+      <div class="form-group">
+        <label for="id_sistema">ID Sistema ORC's</label>
+        <input style="background-color:#eaeaea ;" type="text" class="form-control" id="id_sistema" placeholder="0">
+      </div>
+      <div class="form-group">
+        <label for="nombre_proyecto">Nombre del proyecto</label>
+        <input type="text" class="form-control" id="nombre_proyecto">
+      </div>
+      <div class="form-group">
+        <label for="descripcion_proyecto">Descripción del proyecto</label>
+        <input type="text" class="form-control" id="descripcion_proyecto">
+      </div>
+      <div class="form-group">
+        <label for="tipo_proyecto">Objetivos a los que contribuye el proyecto</label>
+        <select class="form-control" id="tipo_proyecto">
+          <option value="tipo1">Selecciona un objeto</option>
+          <option value="tipo2">Tipo 2</option>
+          <option value="tipo3">Tipo 3</option>
+        </select>
+      </div>
+      <div style="display: flex; justify-content: space-between;">
+        <div style="width: 48%;">
+          <label for="fecha_inicio">Fecha inicio<img src="assets/img/informacion.svg" alt="Calendario" style="width: 16px; vertical-align: middle;"> </label>
+          <div style="position: relative;">
+            <input type="" class="form-control" id="fecha_inicio">
+            <img src="assets/img/calendario.svg" alt="Calendario" style="position: absolute; top: 50%; right: 8px; transform: translateY(-50%);width: 8%;">
+          </div>
+        </div>
+        <div style="width: 48%;">
+          <label for="fecha_fin">Fecha fin <img src="assets/img/informacion.svg" alt="Calendario" style="width: 16px; vertical-align: middle;"></label>
+          <div style="position: relative;">
+            <input type="" class="form-control" id="fecha_fin">
+            <img  src="assets/img/calendario.svg" alt="Calendario" style="position: absolute; top: 50%; right: 8px; transform: translateY(-50%);width: 8%;">
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <button style="background-color: #fec702;margin-top: 20px;border-radius: 40px;border-color: #fec702;" type="submit" class="btn btn-default">Prioridad del proyecto</button>
+    </form>
+  </div>
+
+</div>
+

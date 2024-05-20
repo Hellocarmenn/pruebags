@@ -1,0 +1,22 @@
+body,label{
+  font-weight: normal;
+}
+ 
+ 
+ mat-card{
+    width: 100%;
+    background-color: #EFF5FC;
+    border-radius: 5px;
+  }
+  input{
+    width: 100%;
+  }
+
+  .linea {
+    
+    border-bottom: 1px solid black;
+    margin-right: 10px; /* Espacio entre la línea y el texto */
+}
+
+
+  

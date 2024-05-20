@@ -1,0 +1,15 @@
+
+/* Cambiar color de la letra de las pestañas */
+.mat-tab-label {
+    color: black; /* Color de letra por defecto */
+  }
+  
+  /* Cambiar color de la letra de las pestañas activadas */
+  .mat-tab-label.mat-tab-label-active {
+    color:black; /* Color de letra para pestañas activadas */
+  }
+  
+  /* Cambiar color de la línea activada */
+  .mat-ink-bar {
+    background-color:#fec702; /* Color de la línea activada */
+  }

@@ -1,0 +1,52 @@
+
+<div class="col-sm-12" style="margin-top: 2%">
+  <form [formGroup]="productForm">
+    <!-- Icono de cerrar -->
+    <div style="text-align: right; margin-bottom: 10px;">
+      <i class="fas fa-times" style="font-size: 20px; color: red;"><img class="cerrar" style="width: 5%;" src="assets/img/cerrar.svg"></i>
+    </div>
+    
+    <label>Agregar etapa</label>
+    <hr style="background-color: #fec702; height: 3px; border: none; margin-top: 10px;" />
+    <div class="form-group">
+      <label>Titulo de la iniciativa:<label style="color: red">*</label></label>
+      <input matInput formControlName="titulo" />
+    </div>
+    <div class="form-group">
+      <label >Descripcion de la etapa:<label style="color: red">*</label></label>
+      <!-- Aquí aplicamos la clase form-control al textarea -->
+      <textarea class="form-control" matInput formControlName="descripcion"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="descripcion_proyecto">Entregable de la etapa
+        <img style="color: #fec702" src="assets/img/informacion.svg" alt="Calendario" style="width: 16px; vertical-align: middle" />
+      </label>
+      <input formControlName="etapa" type="text"  />
+    </div>
+
+    <div class="form-group" style="position: relative">
+      <label for="fecha_inicio">Fecha inicio:<label style="color: red">*</label>
+        <img style="color: #fec702" src="assets/img/informacion.svg" alt="Calendario" style="width: 16px; vertical-align: middle" />
+      </label>
+      <input type="date"    formControlName="inicio" class="no-calendar-icon" />
+      <img src="assets/img/calendario.svg" alt="Calendario" style="position: absolute; top: 75%; right: 8px; transform: translateY(-50%); width: 3%;" />
+    </div>
+
+    <div class="form-group" style="position: relative">
+      <label for="fecha_fin">Fecha fin:<label style="color: red">*</label>
+        <img style="color: #fec702" src="assets/img/informacion.svg" alt="Calendario" style="width: 16px; vertical-align: middle" />
+      </label>
+      <input type="date" formControlName="final" class="no-calendar-icon" />
+      <img src="assets/img/calendario.svg" alt="Calendario" style="position: absolute; top: 75%; right: 8px; transform: translateY(-50%); width: 3%;" />
+    </div>
+  </form>
+  
+  <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+    <button style="width: 180px;background-color: white;border-color:#eaeaea ;color: black;" mat-raised-button color="warn" mat-dialog-close>Cancelar</button>
+    <button style="background-color: #fec702;border-color: #fec702;width:180px;margin-left: -360%;" type="submit" class="btn btn-default" (click)="addProduct()">{{actionBtn}}</button>
+  </div>
+    <br>
+    <br>
+    <br>
+  
+</div>
